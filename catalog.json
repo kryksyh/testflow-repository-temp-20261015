@@ -98,6 +98,23 @@
                     "The case leaves generated content open for inspection."
                 ],
                 "reproductions": [
+                    {
+                        "application": "Audacity",
+                        "applicationRevision": "",
+                        "applicationVersion": "4.0.0",
+                        "architecture": "arm64",
+                        "at": "2026-10-15T14:02:04Z",
+                        "build": "",
+                        "confirmedAt": "2026-10-15T14:02:45Z",
+                        "error": "Add a label and check its range: [1] File: file:///Users/dmitry/work/audacity-testflow-repository-prototype/build/audacity-asan/testflow_data/repositories/2519be9f967c94a9f5404f667f6feeddeb1bfa2253ca3eda40df2f38e51bc108/runs/snapshots/a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034/ec226944-3ddd-443f-9a13-1c8b115cec28/helpers/TestSupport.js, Exception at line: 20, Error: Label start: expected 0 s, got 0.5 s",
+                        "finishedSteps": 2,
+                        "note": "can reproduce",
+                        "outcome": "failed",
+                        "platform": "macOS Sequoia (15.8.1)",
+                        "reviewer": "kryksyh",
+                        "revision": "a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034",
+                        "startedSteps": 3
+                    }
                 ],
                 "review": {
                     "reason": "",
@@ -122,7 +139,7 @@
                 ],
                 "title": "Create a region label for a selected clip"
             },
-            "metadataSha": "877b5c760f205a1842a9ba31ede144aba08321ff",
+            "metadataSha": "b9c39440a99de04649557449e2f7b3c68f88f676",
             "revision": "a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034"
         },
         {
