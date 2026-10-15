@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "smoke-fail",
+    "title": "Repository deliberate failure",
+    "description": "An intentional failure for review demonstrations.",
+    "issueUrl": "https://github.com/kryksyh/testflow-repository-temp-20261015/issues/0",
+    "tags": [
+        "example",
+        "smoke",
+        "intentional-failure"
+    ],
+    "origin": {
+        "kind": "example",
+        "createdWith": "Codex"
+    },
+    "review": {
+        "state": "unverified"
+    },
+    "reproductions": []
+}
