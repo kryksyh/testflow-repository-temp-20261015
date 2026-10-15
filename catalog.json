@@ -1,61 +1,67 @@
 {
-    "schemaVersion": 1,
     "cases": [
         {
+            "files": {
+                "main.js": "26b6c3105f496323a89746c76892d430137fdeaa"
+            },
             "id": "smoke-fail",
             "metadata": {
-                "schemaVersion": 1,
-                "id": "smoke-fail",
-                "title": "Repository deliberate failure",
                 "description": "An intentional failure for review demonstrations.",
+                "id": "smoke-fail",
                 "issueUrl": "https://github.com/kryksyh/testflow-repository-temp-20261015/issues/0",
+                "origin": {
+                    "createdWith": "Codex",
+                    "kind": "example"
+                },
+                "reproductions": [
+                ],
+                "review": {
+                    "state": "unverified"
+                },
+                "schemaVersion": 1,
                 "tags": [
                     "example",
                     "smoke",
                     "intentional-failure"
                 ],
-                "origin": {
-                    "kind": "example",
-                    "createdWith": "Codex"
-                },
-                "review": {
-                    "state": "unverified"
-                },
-                "reproductions": []
+                "title": "Repository deliberate failure"
             },
             "metadataSha": "b6a38cfc26734429204635d3a49d6589e58ae383",
-            "files": {
-                "main.js": "26b6c3105f496323a89746c76892d430137fdeaa"
-            },
             "revision": "e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f"
         },
         {
+            "files": {
+                "main.js": "a4c23c70f2c364cc529dae3006268e9511804d58"
+            },
             "id": "smoke-pass",
             "metadata": {
-                "schemaVersion": 1,
-                "id": "smoke-pass",
-                "title": "Repository smoke pass",
                 "description": "A minimal case that must pass when TestFlow can execute a step.",
+                "id": "smoke-pass",
                 "issueUrl": "https://github.com/kryksyh/testflow-repository-temp-20261015/issues/0",
+                "origin": {
+                    "createdWith": "Codex",
+                    "kind": "example"
+                },
+                "reproductions": [
+                ],
+                "review": {
+                    "reason": "okay",
+                    "reviewedAt": "2026-10-15T13:06:58Z",
+                    "reviewer": "kryksyh",
+                    "revision": "7f2b58227295e5163024651671103ae361b1e962c38baf59dbbe450efbce6b6e",
+                    "state": "verified"
+                },
+                "schemaVersion": 1,
                 "tags": [
                     "example",
                     "smoke",
                     "expected-pass"
                 ],
-                "origin": {
-                    "kind": "example",
-                    "createdWith": "Codex"
-                },
-                "review": {
-                    "state": "unverified"
-                },
-                "reproductions": []
+                "title": "Repository smoke pass"
             },
-            "metadataSha": "f6f1636a6383ab6a2f2d712f4e3979ce99780902",
-            "files": {
-                "main.js": "a4c23c70f2c364cc529dae3006268e9511804d58"
-            },
+            "metadataSha": "4fcfaf16075f6e28ba97e6abb60eb77286a8694e",
             "revision": "7f2b58227295e5163024651671103ae361b1e962c38baf59dbbe450efbce6b6e"
         }
-    ]
+    ],
+    "schemaVersion": 1
 }
