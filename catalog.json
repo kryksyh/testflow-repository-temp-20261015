@@ -16,11 +16,11 @@
                 "reproductions": [
                 ],
                 "review": {
-                    "reason": "nmknlkl",
-                    "reviewedAt": "2026-10-15T13:34:17Z",
+                    "reason": "jhkghjkbhj",
+                    "reviewedAt": "2026-10-15T13:34:26Z",
                     "reviewer": "kryksyh",
                     "revision": "7f2b58227295e5163024651671103ae361b1e962c38baf59dbbe450efbce6b6e",
-                    "state": "rejected"
+                    "state": "verified"
                 },
                 "schemaVersion": 1,
                 "tags": [
@@ -30,7 +30,7 @@
                 ],
                 "title": "Repository smoke pass"
             },
-            "metadataSha": "0b7ff92a74472c73d292a6469c8c5fcdd4bfe86c",
+            "metadataSha": "84fb48116c08bff305415c17860b343a1b4fc0f9",
             "revision": "7f2b58227295e5163024651671103ae361b1e962c38baf59dbbe450efbce6b6e"
         }
     ],
