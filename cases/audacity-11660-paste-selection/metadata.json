@@ -1,0 +1,45 @@
+{
+    "coverage": "Case 1 only. Uses the explicit overlap paste action. Does not check paste preferences or the keyboard shortcut.",
+    "createdAgainst": {
+        "applicationRevision": "9e5032a677",
+        "frameworkRevision": "096044c1482355f0901a3af31a39dd59d115aef4",
+        "localChanges": "The framework has uncommitted TestFlow repository prototype changes."
+    },
+    "createdAt": "2026-10-15",
+    "description": "Copy a two-second clip, put the playhead at 1 s, select 4 to 6 s, and paste. The new clip must span 4 to 6 s.",
+    "id": "audacity-11660-paste-selection",
+    "issueUrl": "https://github.com/audacity/audacity/issues/11660",
+    "origin": {
+        "createdWith": "Codex",
+        "kind": "generated"
+    },
+    "preconditions": [
+        "Use Audacity 4 with TestFlow and the Audacity.Project API.",
+        "Start in a new empty project. The built-in Chirp generator must be available.",
+        "The case leaves generated content open for inspection."
+    ],
+    "reproductions": [
+    ],
+    "review": {
+        "reason": "",
+        "reviewedAt": "2026-10-15T13:21:37Z",
+        "reviewer": "local-reviewer",
+        "revision": "498b030c110582079d7441cfd66a01a5bedfaed3dcb2ef1e61b9a1d0787f67c7",
+        "state": "verified"
+    },
+    "schemaVersion": 1,
+    "sourceInspection": {
+        "finding": "Paste reads playbackPosition instead of the selection start in TrackeditActionsController::pasteOverlap.",
+        "paths": [
+            "src/trackedit/internal/trackeditactionscontroller.cpp"
+        ],
+        "runtimeChecked": false
+    },
+    "tags": [
+        "audio-editing",
+        "paste",
+        "time-selection",
+        "generated"
+    ],
+    "title": "Paste at the time selection"
+}
