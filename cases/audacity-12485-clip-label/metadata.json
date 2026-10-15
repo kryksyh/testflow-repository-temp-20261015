@@ -1,30 +1,33 @@
 {
-    "schemaVersion": 1,
-    "id": "audacity-12485-clip-label",
-    "title": "Create a region label for a selected clip",
-    "description": "Select a two-second clip as an object, then add a label. The label must span the full clip range.",
-    "issueUrl": "https://github.com/audacity/audacity/issues/12485",
-    "tags": [
-        "labels",
-        "clip-selection",
-        "generated"
-    ],
-    "origin": {
-        "kind": "generated",
-        "createdWith": "Codex"
-    },
-    "createdAt": "2026-10-15",
+    "coverage": "Focuses the clip navigation control and uses the existing object selection action. Checks that the clip is selected while the time selection has zero duration. Dispatches Add Label directly. Does not check mouse input or shortcut mapping.",
     "createdAgainst": {
         "applicationRevision": "9e5032a677",
         "frameworkRevision": "096044c1482355f0901a3af31a39dd59d115aef4",
         "localChanges": "The framework has uncommitted TestFlow repository prototype changes."
+    },
+    "createdAt": "2026-10-15",
+    "description": "Select a two-second clip as an object, then add a label. The label must span the full clip range.",
+    "id": "audacity-12485-clip-label",
+    "issueUrl": "https://github.com/audacity/audacity/issues/12485",
+    "origin": {
+        "createdWith": "Codex",
+        "kind": "generated"
     },
     "preconditions": [
         "Use Audacity 4 with TestFlow and the Audacity.Project API.",
         "Start in a new empty project. The built-in Chirp generator must be available.",
         "The case leaves generated content open for inspection."
     ],
-    "coverage": "Focuses the clip navigation control and uses the existing object selection action. Checks that the clip is selected while the time selection has zero duration. Dispatches Add Label directly. Does not check mouse input or shortcut mapping.",
+    "reproductions": [
+    ],
+    "review": {
+        "reason": "",
+        "reviewedAt": "2026-10-15T14:02:28Z",
+        "reviewer": "kryksyh",
+        "revision": "a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034",
+        "state": "verified"
+    },
+    "schemaVersion": 1,
     "sourceInspection": {
         "finding": "Add Label reads the time selection or playhead position without using the selected clip range.",
         "paths": [
@@ -33,8 +36,10 @@
         ],
         "runtimeChecked": false
     },
-    "review": {
-        "state": "unverified"
-    },
-    "reproductions": []
+    "tags": [
+        "labels",
+        "clip-selection",
+        "generated"
+    ],
+    "title": "Create a region label for a selected clip"
 }

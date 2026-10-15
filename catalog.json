@@ -100,7 +100,11 @@
                 "reproductions": [
                 ],
                 "review": {
-                    "state": "unverified"
+                    "reason": "",
+                    "reviewedAt": "2026-10-15T14:02:28Z",
+                    "reviewer": "kryksyh",
+                    "revision": "a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034",
+                    "state": "verified"
                 },
                 "schemaVersion": 1,
                 "sourceInspection": {
@@ -118,7 +122,7 @@
                 ],
                 "title": "Create a region label for a selected clip"
             },
-            "metadataSha": "68e15895b0ad192e7f2f7cdb320e175e4fe3c5af",
+            "metadataSha": "877b5c760f205a1842a9ba31ede144aba08321ff",
             "revision": "a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034"
         },
         {
