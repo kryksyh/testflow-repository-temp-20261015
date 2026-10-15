@@ -2,56 +2,6 @@
     "cases": [
         {
             "files": {
-                "main.js": "26b6c3105f496323a89746c76892d430137fdeaa"
-            },
-            "id": "smoke-fail",
-            "metadata": {
-                "description": "An intentional failure for review demonstrations.",
-                "id": "smoke-fail",
-                "issueUrl": "https://github.com/kryksyh/testflow-repository-temp-20261015/issues/0",
-                "origin": {
-                    "createdWith": "Codex",
-                    "kind": "example"
-                },
-                "reproductions": [
-                    {
-                        "application": "Audacity",
-                        "applicationRevision": "",
-                        "applicationVersion": "4.0.0",
-                        "architecture": "arm64",
-                        "at": "2026-10-15T13:04:16Z",
-                        "build": "",
-                        "confirmedAt": "2026-10-15T13:32:49Z",
-                        "error": "Report the example failure: [1] File: file:///Users/dmitry/work/audacity-testflow-repository-prototype/build/audacity-asan/testflow_data/repositories/2519be9f967c94a9f5404f667f6feeddeb1bfa2253ca3eda40df2f38e51bc108/runs/snapshots/e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f/1569480c-f76f-47cc-bcf4-e8cc83ee5cd2/main.js, Exception at line: 13, Error: This failure is intentional. Use it to inspect the review workflow.",
-                        "finishedSteps": 0,
-                        "note": "jnjkn",
-                        "outcome": "failed",
-                        "platform": "macOS Sequoia (15.8.1)",
-                        "reviewer": "kryksyh",
-                        "revision": "e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f",
-                        "startedSteps": 1
-                    }
-                ],
-                "review": {
-                    "reason": "nnn",
-                    "reviewedAt": "2026-10-15T13:08:11Z",
-                    "reviewer": "kryksyh",
-                    "revision": "e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f",
-                    "state": "rejected"
-                },
-                "schemaVersion": 1,
-                "tags": [
-                    "example",
-                    "smoke",
-                    "intentional-failure"
-                ],
-                "title": "Repository deliberate failure"
-            },
-            "metadataSha": "2dadab9effa8df9028b84b0f5bb070b8c992f91e",
-            "revision": "e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f"
-        },
-        {
-            "files": {
                 "main.js": "a4c23c70f2c364cc529dae3006268e9511804d58"
             },
             "id": "smoke-pass",
