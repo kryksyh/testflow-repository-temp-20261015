@@ -19,6 +19,23 @@
         "The case leaves generated content open for inspection."
     ],
     "reproductions": [
+        {
+            "application": "Audacity",
+            "applicationRevision": "",
+            "applicationVersion": "4.0.0",
+            "architecture": "arm64",
+            "at": "2026-10-15T13:59:10Z",
+            "build": "",
+            "confirmedAt": "2026-10-15T14:01:33Z",
+            "error": "Paste and check both clip ranges: [1] File: file:///Users/dmitry/work/audacity-testflow-repository-prototype/build/audacity-asan/testflow_data/repositories/2519be9f967c94a9f5404f667f6feeddeb1bfa2253ca3eda40df2f38e51bc108/runs/snapshots/28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9/dea77981-5402-4315-b1c8-c60ccc81043b/helpers/TestSupport.js, Exception at line: 14, Error: Clip count after paste: expected 2, got 1",
+            "finishedSteps": 2,
+            "note": "it is reproduced as expected on my machine",
+            "outcome": "failed",
+            "platform": "macOS Sequoia (15.8.1)",
+            "reviewer": "kryksyh",
+            "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9",
+            "startedSteps": 3
+        }
     ],
     "review": {
         "reason": "can reproduce",
