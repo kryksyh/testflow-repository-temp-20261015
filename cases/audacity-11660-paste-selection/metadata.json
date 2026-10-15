@@ -21,10 +21,10 @@
     "reproductions": [
     ],
     "review": {
-        "reason": "",
-        "reviewedAt": "2026-10-15T13:21:37Z",
-        "reviewer": "local-reviewer",
-        "revision": "498b030c110582079d7441cfd66a01a5bedfaed3dcb2ef1e61b9a1d0787f67c7",
+        "reason": "can reproduce",
+        "reviewedAt": "2026-10-15T14:01:09Z",
+        "reviewer": "kryksyh",
+        "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9",
         "state": "verified"
     },
     "schemaVersion": 1,

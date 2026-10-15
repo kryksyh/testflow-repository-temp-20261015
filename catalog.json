@@ -1,7 +1,10 @@
 {
-    "schemaVersion": 1,
     "cases": [
         {
+            "files": {
+                "helpers/TestSupport.js": "8122bb0186020435fb2bf987fa57338e3379596f",
+                "main.js": "dfe0081ffb7091619834ba4ed0158edc70029fe1"
+            },
             "id": "audacity-11660-paste-selection",
             "metadata": {
                 "coverage": "Case 1 only. Uses the explicit overlap paste action. Does not check paste preferences or the keyboard shortcut.",
@@ -23,12 +26,13 @@
                     "Start in a new empty project. The built-in Chirp generator must be available.",
                     "The case leaves generated content open for inspection."
                 ],
-                "reproductions": [],
+                "reproductions": [
+                ],
                 "review": {
-                    "reason": "",
-                    "reviewedAt": "2026-10-15T13:21:37Z",
-                    "reviewer": "local-reviewer",
-                    "revision": "498b030c110582079d7441cfd66a01a5bedfaed3dcb2ef1e61b9a1d0787f67c7",
+                    "reason": "can reproduce",
+                    "reviewedAt": "2026-10-15T14:01:09Z",
+                    "reviewer": "kryksyh",
+                    "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9",
                     "state": "verified"
                 },
                 "schemaVersion": 1,
@@ -47,42 +51,41 @@
                 ],
                 "title": "Paste at the time selection"
             },
-            "metadataSha": "8dbd0c6c7a6b87c45b0cbf3ddbe414c0c5dfe939",
-            "files": {
-                "helpers/TestSupport.js": "8122bb0186020435fb2bf987fa57338e3379596f",
-                "main.js": "dfe0081ffb7091619834ba4ed0158edc70029fe1"
-            },
+            "metadataSha": "e5a4a365a6d8059ab9dec02f38cc880b44e8b51c",
             "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9"
         },
         {
+            "files": {
+                "helpers/TestSupport.js": "8122bb0186020435fb2bf987fa57338e3379596f",
+                "main.js": "6df5e3e4c643ae8c013f718670a8cb3ed3301a13"
+            },
             "id": "audacity-12485-clip-label",
             "metadata": {
-                "schemaVersion": 1,
-                "id": "audacity-12485-clip-label",
-                "title": "Create a region label for a selected clip",
-                "description": "Select a two-second clip as an object, then add a label. The label must span the full clip range.",
-                "issueUrl": "https://github.com/audacity/audacity/issues/12485",
-                "tags": [
-                    "labels",
-                    "clip-selection",
-                    "generated"
-                ],
-                "origin": {
-                    "kind": "generated",
-                    "createdWith": "Codex"
-                },
-                "createdAt": "2026-10-15",
+                "coverage": "Focuses the clip navigation control and uses the existing object selection action. Checks that the clip is selected while the time selection has zero duration. Dispatches Add Label directly. Does not check mouse input or shortcut mapping.",
                 "createdAgainst": {
                     "applicationRevision": "9e5032a677",
                     "frameworkRevision": "096044c1482355f0901a3af31a39dd59d115aef4",
                     "localChanges": "The framework has uncommitted TestFlow repository prototype changes."
+                },
+                "createdAt": "2026-10-15",
+                "description": "Select a two-second clip as an object, then add a label. The label must span the full clip range.",
+                "id": "audacity-12485-clip-label",
+                "issueUrl": "https://github.com/audacity/audacity/issues/12485",
+                "origin": {
+                    "createdWith": "Codex",
+                    "kind": "generated"
                 },
                 "preconditions": [
                     "Use Audacity 4 with TestFlow and the Audacity.Project API.",
                     "Start in a new empty project. The built-in Chirp generator must be available.",
                     "The case leaves generated content open for inspection."
                 ],
-                "coverage": "Focuses the clip navigation control and uses the existing object selection action. Checks that the clip is selected while the time selection has zero duration. Dispatches Add Label directly. Does not check mouse input or shortcut mapping.",
+                "reproductions": [
+                ],
+                "review": {
+                    "state": "unverified"
+                },
+                "schemaVersion": 1,
                 "sourceInspection": {
                     "finding": "Add Label reads the time selection or playhead position without using the selected clip range.",
                     "paths": [
@@ -91,19 +94,20 @@
                     ],
                     "runtimeChecked": false
                 },
-                "review": {
-                    "state": "unverified"
-                },
-                "reproductions": []
+                "tags": [
+                    "labels",
+                    "clip-selection",
+                    "generated"
+                ],
+                "title": "Create a region label for a selected clip"
             },
             "metadataSha": "68e15895b0ad192e7f2f7cdb320e175e4fe3c5af",
-            "files": {
-                "helpers/TestSupport.js": "8122bb0186020435fb2bf987fa57338e3379596f",
-                "main.js": "6df5e3e4c643ae8c013f718670a8cb3ed3301a13"
-            },
             "revision": "a4216a75505be150ba1752c5d943d121278ca5b9a922bab6585dbf023482e034"
         },
         {
+            "files": {
+                "main.js": "a4c23c70f2c364cc529dae3006268e9511804d58"
+            },
             "id": "smoke-pass",
             "metadata": {
                 "description": "A minimal case that must pass when TestFlow can execute a step.",
@@ -113,7 +117,8 @@
                     "createdWith": "Codex",
                     "kind": "example"
                 },
-                "reproductions": [],
+                "reproductions": [
+                ],
                 "review": {
                     "reason": "",
                     "reviewedAt": "2026-10-15T13:48:09Z",
@@ -130,10 +135,8 @@
                 "title": "Repository smoke pass"
             },
             "metadataSha": "6d08874b2c761e67b57aad178be5494b61853e6e",
-            "files": {
-                "main.js": "a4c23c70f2c364cc529dae3006268e9511804d58"
-            },
             "revision": "7f2b58227295e5163024651671103ae361b1e962c38baf59dbbe450efbce6b6e"
         }
-    ]
+    ],
+    "schemaVersion": 1
 }
