@@ -16,7 +16,11 @@
                 "reproductions": [
                 ],
                 "review": {
-                    "state": "unverified"
+                    "reason": "nnn",
+                    "reviewedAt": "2026-10-15T13:08:11Z",
+                    "reviewer": "kryksyh",
+                    "revision": "e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f",
+                    "state": "rejected"
                 },
                 "schemaVersion": 1,
                 "tags": [
@@ -26,7 +30,7 @@
                 ],
                 "title": "Repository deliberate failure"
             },
-            "metadataSha": "b6a38cfc26734429204635d3a49d6589e58ae383",
+            "metadataSha": "9035febe41e0891b5e79832102a350187a20751f",
             "revision": "e7b3a2ca44053bc7573310db1155b67b2bf9d9f9698cdad9c85cd4bc5ccbd45f"
         },
         {
