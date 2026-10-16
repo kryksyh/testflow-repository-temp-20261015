@@ -35,6 +35,29 @@
             "reviewer": "kryksyh",
             "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9",
             "startedSteps": 3
+        },
+        {
+            "application": "Audacity",
+            "applicationRevision": "",
+            "applicationVersion": "4.0.0",
+            "architecture": "arm64",
+            "at": "2026-10-16T09:50:37Z",
+            "build": "",
+            "confirmedAt": "2026-10-16T09:56:39Z",
+            "error": "Paste and check both clip ranges: [1] File: file:///Users/dmitry/work/audacity-testflow-repository-prototype/build/audacity-asan/testflow_data/repositories/2519be9f967c94a9f5404f667f6feeddeb1bfa2253ca3eda40df2f38e51bc108/runs/snapshots/28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9/1b42017a-0306-4941-b742-8eb70067196a/helpers/TestSupport.js, Exception at line: 14, Error: Clip count after paste: expected 2, got 1",
+            "failure": {
+                "file": "file:///Users/dmitry/work/audacity-testflow-repository-prototype/build/audacity-asan/testflow_data/repositories/2519be9f967c94a9f5404f667f6feeddeb1bfa2253ca3eda40df2f38e51bc108/runs/snapshots/28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9/1b42017a-0306-4941-b742-8eb70067196a/helpers/TestSupport.js",
+                "line": 14,
+                "message": "Error: Clip count after paste: expected 2, got 1",
+                "step": "Paste and check both clip ranges"
+            },
+            "finishedSteps": 2,
+            "note": "hhh",
+            "outcome": "failed",
+            "platform": "macOS Sequoia (15.8.1)",
+            "reviewer": "kryksyh",
+            "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9",
+            "startedSteps": 3
         }
     ],
     "review": {
