@@ -46,8 +46,8 @@
                     }
                 ],
                 "review": {
-                    "reason": "can reproduce",
-                    "reviewedAt": "2026-10-15T14:01:09Z",
+                    "reason": "",
+                    "reviewedAt": "2026-10-16T09:51:44Z",
                     "reviewer": "kryksyh",
                     "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9",
                     "state": "verified"
@@ -68,7 +68,7 @@
                 ],
                 "title": "Paste at the time selection"
             },
-            "metadataSha": "8de1d68582ee71462bafa3bf5992242caf18643b",
+            "metadataSha": "da7acf06048bd46e326e95631099c23c3bd15587",
             "revision": "28b65b5e837d9f83da6ccbc9545ea70dccc25806b04f1826d34e123eb19615a9"
         },
         {
